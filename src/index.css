@@ -1,0 +1,16 @@
+:root a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root a:hover h3 {
+  text-decoration: underline;
+}
+
+:root dt {
+  display: block;
+}
+
+:root dd {
+  display: block;
+}

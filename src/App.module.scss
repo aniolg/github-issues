@@ -1,0 +1,9 @@
+.app {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: var(--space-6);
+
+  @media (max-width: 768px) {
+    padding: var(--space-2);
+  }
+}
