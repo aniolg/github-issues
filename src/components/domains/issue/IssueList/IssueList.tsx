@@ -19,7 +19,7 @@ export default function IssueList({
 }: IssueListProps) {
   if (isPending) return <IssueListSkeleton />
 
-  if (isError) return <Text>{'Somthing went wrong'}</Text>
+  if (isError) return <Text>{'Something went wrong'}</Text>
 
   if (!issues?.length) return <Text>{'No Issues :('}</Text>
 
